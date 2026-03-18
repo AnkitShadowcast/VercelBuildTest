@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Convai-1";
+const cacheName = "Shadowcast-Wyntrr Conversational AI Engine-1";
 const contentToCache = [
     "Build/Wyntrr.loader.js",
     "Build/Wyntrr.framework.js",
