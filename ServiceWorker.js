@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-Convai-2";
+const cacheName = "DefaultCompany-Convai-1";
 const contentToCache = [
-    "Build/0ee53bc6327df7e5d76028d110f02725.loader.js",
-    "Build/5d8462470b7a5308093f233da20c4e6a.framework.js.gz",
-    "Build/41525c145e05ca8827935f094d4c3d72.data.gz",
-    "Build/0a29e447d0982e6b3e5a2228c2305359.wasm.gz",
+    "Build/Wyntrr.loader.js",
+    "Build/Wyntrr.framework.js",
+    "Build/Wyntrr.data",
+    "Build/Wyntrr.wasm",
     "TemplateData/style.css"
 
 ];
