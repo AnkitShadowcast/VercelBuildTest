@@ -98,11 +98,11 @@
 </div>
 
 <script>
-    window.addEventListener("load", function () {
-        if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("ServiceWorker.js");
-        }
-    });
+    //window.addEventListener("load", function () {
+    //    if ("serviceWorker" in navigator) {
+    //        navigator.serviceWorker.register("ServiceWorker.js");
+    //    }
+    //});
 
     var container = document.querySelector("#unity-container");
     var canvas = document.querySelector("#unity-canvas");
@@ -129,16 +129,16 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Wyntrr.loader.js";
+    var loaderUrl = buildUrl + "/Wyntrr.loader.js"
 
     var config = {
-        dataUrl: buildUrl + "/Wyntrr.data",
+        dataUrl: buildUrl + "/Wyntrr.data"
         frameworkUrl: buildUrl + "/Wyntrr.framework.js",
         codeUrl: buildUrl + "/Wyntrr.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
     productName: "Convai",
-    productVersion: "1",
+    productVersion: "2",
     showBanner: unityShowBanner,
     };
 

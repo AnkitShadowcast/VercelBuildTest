@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Convai-1";
+const cacheName = "DefaultCompany-Convai-2";
 const contentToCache = [
     "Build/Wyntrr.loader.js",
     "Build/Wyntrr.framework.js",
