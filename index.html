@@ -98,11 +98,11 @@
 </div>
 
 <script>
-    //window.addEventListener("load", function () {
-    //    if ("serviceWorker" in navigator) {
-    //        navigator.serviceWorker.register("ServiceWorker.js");
-    //    }
-    //});
+    window.addEventListener("load", function () {
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("ServiceWorker.js");
+        }
+    });
 
     var container = document.querySelector("#unity-container");
     var canvas = document.querySelector("#unity-canvas");
@@ -129,12 +129,12 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Wyntrr.loader.js"
+    var loaderUrl = buildUrl + "/445b703da7cbe026a30d19e8512401f1.loader.js"
 
     var config = {
-        dataUrl: buildUrl + "/Wyntrr.data",
-        frameworkUrl: buildUrl + "/Wyntrr.framework.js",
-        codeUrl: buildUrl + "/Wyntrr.wasm",
+        dataUrl: buildUrl + "/58d1a3063020f021eb0c5d7ee1e0ab68.data"
+        frameworkUrl: buildUrl + "/5d8462470b7a5308093f233da20c4e6a.framework.js",
+        codeUrl: buildUrl + "/0a29e447d0982e6b3e5a2228c2305359.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
     productName: "Convai",
