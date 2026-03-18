@@ -1,12 +1,5 @@
 const cacheName = "DefaultCompany-Convai-1";
-const contentToCache = [
-    "Build/Wyntrr.loader.js",
-    "Build/Wyntrr.framework.js",
-    "Build/Wyntrr.data",
-    "Build/Wyntrr.wasm",
-    "TemplateData/style.css"
-
-];
+const contentToCache = [];
 
 self.addEventListener('install', function (e) {
     console.log('[Service Worker] Install');
